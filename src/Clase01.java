@@ -1,7 +1,12 @@
+import figuras_geometricas.Cuadrado;
+
 public class Clase01 {
     public static void main(String[] args) {
         System.out.println("Hola mundo");
 
+        cuadrado();
+
+        /*
         // Objeto o instancia de la clase Persona
         Persona persona1 = new Persona();
 
@@ -24,6 +29,14 @@ public class Clase01 {
                 "\nEdad: " + persona1.edad + " años" +
                 "\nFecha de nacimiento: " + persona1.fecha_nacimiento
         );
+        */
+
+    }
+
+
+    public static void cuadrado() {
+        Cuadrado cuadrado = new Cuadrado();
+        cuadrado.calcularPerimetro();
     }
 }
 
